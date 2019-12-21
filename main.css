@@ -1,0 +1,130 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+#cheetah {
+  background-image: url('photos/cheetah.jpg');
+}
+
+#bike {
+  background-image: url('photos/bike.jpeg');
+}
+
+#flower {
+  background-image: url('photos/flower.jpeg');
+}
+
+#ferns {
+  background-image: url('photos/ferns.jpg');
+}
+
+#giraffe {
+  background-image: url('photos/giraffe.jpg');
+}
+
+#southtree {
+  background-image: url('photos/southtree.jpg');
+}
+
+#boat {
+  background-image: url('photos/boat.jpeg');
+}
+
+#elsalv {
+  background-image: url('photos/elsalv.jpeg');
+}
+
+.parallax {
+  /* The image used */
+  /* Full height */
+  height: 100px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.desc {
+  font-size: 54px;
+}
+
+h1 {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-size: 70px;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+h2 {
+  font-size: 50px;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ededed;
+}
+
+.loader {
+  max-width: 15rem;
+  width: 100%;
+  height: auto;
+  stroke-linecap: round;
+}
+
+circle {
+  fill: none;
+  stroke-width: 3.5;
+  animation-name: preloader;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform-origin: 170px 170px;
+  will-change: transform;
+  &:nth-of-type(1) {
+    stroke-dasharray: 450px;
+  }
+  &:nth-of-type(2) {
+    stroke-dasharray: 400px;
+  }
+  &:nth-of-type(3) {
+    stroke-dasharray: 350px;
+  }
+  &:nth-of-type(4) {
+    stroke-dasharray: 200px;
+  }
+  @for $i from 1 through 4 {
+    &:nth-of-type(#{$i}) {
+      animation-delay: -#{$i * 0.15}s;
+    }
+  }
+}
+
+@keyframes preloader {
+  50% {
+    transform: rotate(360deg);
+  }
+}
