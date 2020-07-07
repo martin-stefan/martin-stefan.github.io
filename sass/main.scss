@@ -64,6 +64,9 @@ p {
   color: white;
   font-size: 20px;
   font-family: 'Yantramanav', sans-serif;
+=======
+  background-color: $color-secondary;
+  background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
 }
 
 #cheetah {
