@@ -1,4 +1,4 @@
-
+@import "abstracts/variables";
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,8 @@ html, body {
 }
 
 body {
-  background-color: black;
+  background-color: $color-secondary;
+  background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
 }
 
 #cheetah {
