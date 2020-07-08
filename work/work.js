@@ -7,7 +7,7 @@ $(document).ready(function () {
       var output = "<ul class='list'>";
       $.each(responseData.job, function(i, item) {
         output += '<li class="listelm">';
-        output += '<p class="smallTitle">' + item.title + '</p>';
+        output += '<p class="smallTitle">' + item.title + " - " + item.comp + '</p>';
         output += '<p class="subTitle">' + item.date + '</p>';
         output += '<p class="smallDesc">' + item.desc + '</p>';
         output += '</li>';

@@ -1,0 +1,44 @@
+nav {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(65, 70, 85);
+}
+
+nav div a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+}
+
+nav div a:hover {
+  color: white;
+}
+
+nav div a:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+nav div a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
