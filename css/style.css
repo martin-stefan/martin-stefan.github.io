@@ -61,6 +61,7 @@ p {
     left: 30%;
     top: 20%; }
 
+
 nav {
   text-align: center;
   padding-top: 20px;
@@ -101,6 +102,10 @@ nav div a:hover:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
 
+
+ /* background-color: #1b338c; */
+
+
 #cheetah {
   background-image: url("photos/cheetah.jpg"); }
 
@@ -137,6 +142,7 @@ nav div a:hover:before {
 
 .desc {
   font-size: 54px; }
+
 
 .title {
   font-family: 'Yantramanav', sans-serif;
@@ -180,3 +186,62 @@ nav div a:hover:before {
   color: white;
   padding-right: 0;
   margin-right: 0; }
+=======
+h1 {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 70px;
+  color: white;
+  text-align: center; }
+
+h3 {
+  font-size: 70px;
+  color: white;
+  font-family: 'Rajdhani', sans-serif; }
+
+h2 {
+  font-size: 50px;
+  color: white;
+  font-family: 'Rajdhani', sans-serif; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ededed; }
+
+.loader {
+  max-width: 15rem;
+  width: 100%;
+  height: auto;
+  stroke-linecap: round; }
+
+circle {
+  fill: none;
+  stroke-width: 3.5;
+  animation-name: preloader;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform-origin: 170px 170px;
+  will-change: transform; }
+  circle:nth-of-type(1) {
+    stroke-dasharray: 450px; }
+  circle:nth-of-type(2) {
+    stroke-dasharray: 400px; }
+  circle:nth-of-type(3) {
+    stroke-dasharray: 350px; }
+  circle:nth-of-type(4) {
+    stroke-dasharray: 200px; }
+  circle:nth-of-type(1) {
+    animation-delay: -0.15s; }
+  circle:nth-of-type(2) {
+    animation-delay: -0.3s; }
+  circle:nth-of-type(3) {
+    animation-delay: -0.45s; }
+  circle:nth-of-type(4) {
+    animation-delay: -0.6s; }
+
+@keyframes preloader {
+  50% {
+    transform: rotate(360deg); } }
