@@ -1,11 +1,47 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+body {
+  background-color: #414655; }
+
+p {
+  color: white;
+  font-size: 20px;
+  font-family: 'Yantramanav', sans-serif; }
+
+.listelm {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.smallTitle {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 50px;
+  color: white;
+  margin: 0; }
+
+.subTitle {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 30px;
+  color: white;
+  margin: 0;
+  font-style: italic; }
+
+.smallDesc {
+  font-family: 'Yantramanav', sans-serif; }
+
 .warning {
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: #ffa500;
   position: fixed;
-  z-index: 3000; }
+  z-index: 3000;
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
   .warning__box {
     position: absolute;
     width: 400px;
@@ -24,17 +60,6 @@
     position: relative;
     left: 30%;
     top: 20%; }
-
-* {
-  box-sizing: border-box; }
-
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%; }
-
-body {
-  background-color: #414655; }
 
 nav {
   text-align: center;
@@ -75,11 +100,6 @@ nav div a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
-
-p {
-  color: white;
-  font-size: 20px;
-  font-family: 'Yantramanav', sans-serif; }
 
 #cheetah {
   background-image: url("photos/cheetah.jpg"); }
@@ -155,26 +175,6 @@ p {
   list-style-type: none;
   padding-top: 2rem;
   padding-left: 6rem; }
-
-.listelm {
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-.smallTitle {
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 50px;
-  color: white;
-  margin: 0; }
-
-.subTitle {
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 30px;
-  color: white;
-  margin: 0;
-  font-style: italic; }
-
-.smallDesc {
-  font-family: 'Yantramanav', sans-serif; }
 
 #globe {
   color: white;
