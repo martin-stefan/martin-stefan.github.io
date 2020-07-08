@@ -8,110 +8,13 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/images";
+@import "components/translate";
 @import "components/warning";
 
 @import "layout/footer";
 @import "layout/navigation";
 
-
-#cheetah {
-  background-image: url('photos/cheetah.jpg');
-}
-
-#bike {
-  background-image: url('photos/bike.jpeg');
-}
-
-#flower {
-  background-image: url('photos/flower.jpeg');
-}
-
-#ferns {
-  background-image: url('photos/ferns.jpg');
-}
-
-#giraffe {
-  background-image: url('photos/giraffe.jpg');
-}
-
-#southtree {
-  background-image: url('photos/southtree.jpg');
-}
-
-#boat {
-  background-image: url('photos/boat.jpeg');
-}
-
-#elsalv {
-  background-image: url('photos/elsalv.jpeg');
-}
-
-.parallax {
-  /* The image used */
-  /* Full height */
-  height: 100px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.desc {
-  font-size: 54px;
-}
-
-.title {
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 90px;
-  color: white;
-  text-align: center;
-  margin: 0;
-}
-
-
-.filler {
-  padding-left: 200px;
-  padding-right: 200px;
-}
-
-#initials {
-  font-family: 'Permanent Marker', cursive;
-}
-
-.contact {
-  font-size: 50px;
-  color: white;
-  margin: 0;
-  padding-bottom: 10px;
-  font-family: 'Yantramanav', sans-serif;
-}
-
-#email {
-  color: white;
-  text-decoration: none;
-}
-
-.cinfo {
-  position: relative;
-  text-align: center;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
-}
-
-.list {
-  list-style-type: none;
-  padding-top: 2rem;
-  padding-left: 6rem;
-}
-
-
-
-#globe {
-  color:white;
-  padding-right: 0;
-  margin-right: 0;
-
-}
+@import "pages/contact";
+@import "pages/home";
+@import "pages/photos";
