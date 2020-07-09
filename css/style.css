@@ -52,10 +52,13 @@ p {
 
 .card {
   height: 30rem;
-  width: 50rem;
   background-image: linear-gradient(to right bottom, #6f778f 5%, #2c303a);
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 0 4rem rgba(255, 255, 255, 0.2);
+  position: relative; }
+  .card__side {
+    margin: 1rem 2rem;
+    position: absolute; }
 
 #cheetah {
   background-image: url("photos/cheetah.jpg"); }
@@ -119,6 +122,28 @@ p {
     border-top: solid 1px #6f778f;
     padding-top: 1rem;
     display: inline-block; }
+
+.row {
+  max-width: 114rem;
+  margin: 3rem auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - (2 * 6rem)) / 3); }
+  .row .col-2-of-3 {
+    width: calc(2 * ((100% - (2 * 6rem)) / 3) + 6rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - (3 * 6rem)) / 4); }
+  .row .col-2-of-4 {
+    width: calc(2 * ((100% - (3 * 6rem)) / 4) + 6rem); }
+  .row .col-3-of-4 {
+    width: calc(3 * ((100% - (3 * 6rem)) / 4) + 2 * 6rem); }
 
 nav {
   text-align: center;
