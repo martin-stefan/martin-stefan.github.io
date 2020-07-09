@@ -4,7 +4,7 @@ nav {
   padding-bottom: 20px;
   position: sticky;
   top: 0;
-  background-color: rgb(65, 70, 85);
+  background-image: linear-gradient(to top, $color-primary-dark, $color-primary-light 90%);
 }
 
 nav div a {

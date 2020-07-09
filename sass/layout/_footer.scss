@@ -1,0 +1,13 @@
+.footer {
+  // background-image: linear-gradient(to bottom, $color-primary, $color-primary-dark);
+  padding: 15rem 0;
+
+  &__content {
+    border-top: solid 1px $color-primary-light;
+    padding-top: 1rem;
+    display: inline-block;
+  }
+}
+
+
+

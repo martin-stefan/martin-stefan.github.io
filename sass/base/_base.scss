@@ -1,13 +1,20 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 html, body {
+  font-size: 62.5%;
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
 body {
-  background-color: rgb(65, 70, 85);
+  
+  background-color: $color-primary-dark;
+  
+  // #414655
 }
+

@@ -1,13 +1,16 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box; }
 
 html, body {
+  font-size: 62.5%;
   margin: 0;
   padding: 0;
   height: 100%; }
 
 body {
-  background-color: #414655; }
+  background-color: #2c303a; }
 
 p {
   color: white;
@@ -33,6 +36,55 @@ p {
 
 .smallDesc {
   font-family: 'Yantramanav', sans-serif; }
+
+.title {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 90px;
+  color: white;
+  text-align: center;
+  margin: 0; }
+
+.desc {
+  font-size: 54px; }
+
+#initials {
+  font-family: 'Permanent Marker', cursive; }
+
+.card {
+  height: 30rem;
+  width: 50rem;
+  background-image: linear-gradient(to right bottom, #6f778f 5%, #2c303a);
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+
+#cheetah {
+  background-image: url("photos/cheetah.jpg"); }
+
+#bike {
+  background-image: url("photos/bike.jpeg"); }
+
+#flower {
+  background-image: url("photos/flower.jpeg"); }
+
+#ferns {
+  background-image: url("photos/ferns.jpg"); }
+
+#giraffe {
+  background-image: url("photos/giraffe.jpg"); }
+
+#southtree {
+  background-image: url("photos/southtree.jpg"); }
+
+#boat {
+  background-image: url("photos/boat.jpeg"); }
+
+#elsalv {
+  background-image: url("photos/elsalv.jpeg"); }
+
+#globe {
+  color: white;
+  padding-right: 0;
+  margin-right: 0; }
 
 .warning {
   top: 0;
@@ -61,6 +113,12 @@ p {
     left: 30%;
     top: 20%; }
 
+.footer {
+  padding: 15rem 0; }
+  .footer__content {
+    border-top: solid 1px #6f778f;
+    padding-top: 1rem;
+    display: inline-block; }
 
 nav {
   text-align: center;
@@ -68,7 +126,7 @@ nav {
   padding-bottom: 20px;
   position: sticky;
   top: 0;
-  background-color: #414655; }
+  background-image: linear-gradient(to top, #2c303a, #6f778f 90%); }
 
 nav div a {
   text-decoration: none;
@@ -102,62 +160,6 @@ nav div a:hover:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
 
-
- /* background-color: #1b338c; */
-
-
-#cheetah {
-  background-image: url("photos/cheetah.jpg"); }
-
-#bike {
-  background-image: url("photos/bike.jpeg"); }
-
-#flower {
-  background-image: url("photos/flower.jpeg"); }
-
-#ferns {
-  background-image: url("photos/ferns.jpg"); }
-
-#giraffe {
-  background-image: url("photos/giraffe.jpg"); }
-
-#southtree {
-  background-image: url("photos/southtree.jpg"); }
-
-#boat {
-  background-image: url("photos/boat.jpeg"); }
-
-#elsalv {
-  background-image: url("photos/elsalv.jpeg"); }
-
-.parallax {
-  /* The image used */
-  /* Full height */
-  height: 100px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.desc {
-  font-size: 54px; }
-
-
-.title {
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 90px;
-  color: white;
-  text-align: center;
-  margin: 0; }
-
-.filler {
-  padding-left: 200px;
-  padding-right: 200px; }
-
-#initials {
-  font-family: 'Permanent Marker', cursive; }
-
 .contact {
   font-size: 50px;
   color: white;
@@ -182,66 +184,16 @@ nav div a:hover:before {
   padding-top: 2rem;
   padding-left: 6rem; }
 
-#globe {
-  color: white;
-  padding-right: 0;
-  margin-right: 0; }
-=======
-h1 {
-  font-family: 'Saira Condensed', sans-serif;
-  font-size: 70px;
-  color: white;
-  text-align: center; }
+.filler {
+  padding-left: 200px;
+  padding-right: 200px; }
 
-h3 {
-  font-size: 70px;
-  color: white;
-  font-family: 'Rajdhani', sans-serif; }
-
-h2 {
-  font-size: 50px;
-  color: white;
-  font-family: 'Rajdhani', sans-serif; }
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background-color: #ededed; }
-
-.loader {
-  max-width: 15rem;
-  width: 100%;
-  height: auto;
-  stroke-linecap: round; }
-
-circle {
-  fill: none;
-  stroke-width: 3.5;
-  animation-name: preloader;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  transform-origin: 170px 170px;
-  will-change: transform; }
-  circle:nth-of-type(1) {
-    stroke-dasharray: 450px; }
-  circle:nth-of-type(2) {
-    stroke-dasharray: 400px; }
-  circle:nth-of-type(3) {
-    stroke-dasharray: 350px; }
-  circle:nth-of-type(4) {
-    stroke-dasharray: 200px; }
-  circle:nth-of-type(1) {
-    animation-delay: -0.15s; }
-  circle:nth-of-type(2) {
-    animation-delay: -0.3s; }
-  circle:nth-of-type(3) {
-    animation-delay: -0.45s; }
-  circle:nth-of-type(4) {
-    animation-delay: -0.6s; }
-
-@keyframes preloader {
-  50% {
-    transform: rotate(360deg); } }
+.parallax {
+  /* The image used */
+  /* Full height */
+  height: 100px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
