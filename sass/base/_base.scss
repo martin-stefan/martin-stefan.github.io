@@ -12,7 +12,9 @@ html, body {
 }
 
 body {
-  background-image: linear-gradient($color-primary-light, $color-primary-dark);
-  // background-color: rgb(65, 70, 85);
+  
+  background-color: $color-primary-dark;
+  
   // #414655
 }
+
