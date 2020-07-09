@@ -1,14 +1,20 @@
 
 .card {
   height: 30rem;
-  width: 50rem;
   background-image: linear-gradient(to right bottom, $color-primary-light 5%, $color-primary-dark);
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(black, .15);
+  box-shadow: 0 0 4rem rgba(white, .2);
+  position: relative;
 
-  &:hover {
+  // &:hover {
 
+  // }
+
+  &__side {
+    margin: 1rem 2rem;
+    position: absolute;
   }
 }
+
 
 
