@@ -43,3 +43,15 @@ p {
 #initials {
   font-family: 'Permanent Marker', cursive;
 }
+
+.heading-primary {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+  display: block;
+  font-size: 6rem;
+  letter-spacing: .5rem;
+  position: relative;
+}
