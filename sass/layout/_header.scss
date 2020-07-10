@@ -1,21 +1,27 @@
 .header {
   
+  height: 50vh;
+  width: 70%;
+  margin: 13rem auto 10rem auto;
   background-size: cover;
   background-position: top;
   position: relative;
-  // -webkit-clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
-  // clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
-  margin: 10rem auto;
-
- 
-
-  &__box {
-    height: 50vh;
-    background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
-    -webkit-clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
-    clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
-    box-shadow: 0 0 4rem rgba(white, .2);
-    height: 50vh;
+  font-family: 'Yantramanav', sans-serif;
+  color: white;
+  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+  -webkit-clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
+  border-radius: 3px;
+  
+  &__text {
+    position: absolute;
+    overflow: hidden;
+    top: 0; 
+    left: 0;
+    transform: translateX(100%)
+    
   }
 
 }
+
+
