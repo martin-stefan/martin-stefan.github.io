@@ -1,0 +1,21 @@
+.header {
+  
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  // -webkit-clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
+  // clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
+  margin: 10rem auto;
+
+ 
+
+  &__box {
+    height: 50vh;
+    background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+    -webkit-clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
+    box-shadow: 0 0 4rem rgba(white, .2);
+    height: 50vh;
+  }
+
+}
