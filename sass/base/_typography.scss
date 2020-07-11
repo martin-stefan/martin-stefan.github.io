@@ -60,20 +60,24 @@ p {
   letter-spacing: .5rem;
   position: relative;
   color: white;
+  
 
   &--main {
     font-size: 10rem;
     font-family: Aileron;
     display: block;
+    font-weight: 50;
+    animation: moveInRight 1.2s ease-in;
   }
 
   &--sub {
     font-size: 7rem;
     font-family: Aileron;
+    font-weight: 50;
     display: block;
+    animation: moveInLeft 1.2s ease-in;
   }
 }
-
 
 .heading-secondary {
   font-size: 2.5rem;
@@ -84,4 +88,3 @@ p {
   transition: all .2s;
   padding: 1rem 4rem 2rem 3rem;
 }
-
