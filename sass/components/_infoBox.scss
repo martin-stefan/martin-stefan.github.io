@@ -1,0 +1,18 @@
+.intro {
+  height: 50vh;
+  width: 70%;
+  margin: 13rem auto 10rem auto;
+  font-family: 'Yantramanav', sans-serif;
+  color: white;
+  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+  border-radius: 3px;
+  transform: skewX(-15deg);
+  
+  &__text {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    transform: skewX(15deg);
+    text-align: center;
+  }
+}
