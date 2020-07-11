@@ -1,12 +1,18 @@
 .intro {
-  height: 50vh;
-  width: 70%;
-  margin: 13rem auto 10rem auto;
-  font-family: 'Yantramanav', sans-serif;
-  color: white;
-  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
-  border-radius: 3px;
-  transform: skewX(-15deg);
+
+  height: 100vh;
+
+  &__box {
+    height: 50%;
+    width: 60%;
+    margin: 17rem auto 10rem auto;
+    font-family: 'Yantramanav', sans-serif;
+    color: white;
+    background-image: linear-gradient(to right bottom, rgba($color-primary-light, .3), rgba($color-primary-dark, .3)), url(../../photos/stairs.jpg);
+    border-radius: 3px;
+    transform: skewX(-15deg);
+    box-shadow: 1rem 1rem 2rem rgba(white, .5);
+  }
   
   &__text {
     position: absolute;
