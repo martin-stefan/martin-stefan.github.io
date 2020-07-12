@@ -8,7 +8,7 @@ $(document).ready(function () {
       // output += "<ul class='list'>";
       $.each(responseData.project, function(i, item) {
         output += '<div class="col-1-of-2">';
-        output += '<div class="card">';
+        output += '<div class="card u-margin-top-medium">';
         output += '<div class="card__side">';
         // output += '<li class="listelm">';
         output += '<p class="smallTitle">' + item.title + '</p>';

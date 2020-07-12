@@ -205,7 +205,8 @@ p {
   background-image: linear-gradient(to right bottom, rgba(111, 119, 143, 0.3), rgba(38, 39, 44, 0.3)), url(../../photos/stairs.jpg);
   border-radius: 3px;
   box-shadow: 1rem 1rem 2rem rgba(255, 255, 255, 0.3);
-  position: relative; }
+  position: relative;
+  display: block; }
   .card__side {
     margin: 1rem 2rem;
     position: absolute; }
