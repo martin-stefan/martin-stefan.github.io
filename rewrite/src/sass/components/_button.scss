@@ -1,0 +1,23 @@
+.button {
+  // height: 2rem;
+  // width: 6rem;
+  // display: flex;
+  // padding: 1rem;
+  // align-items: center;
+  // justify-content: center;
+  transition: .15s ease-in;
+  color: white;
+  
+
+  &:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+  }
+
+  &:active {
+    transform: translateY(2px);
+    transition: .1s ease-out;
+  }
+
+
+}

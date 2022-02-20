@@ -1,0 +1,53 @@
+.experience {
+  height: 100%;
+  
+  &__title {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  background-color: rgb(146 151 179 / 13%);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: solid 2px transparent;
+  background-clip: padding-box;
+
+  &__item {
+
+    &--title {
+      font-size: 1.3rem;
+    }
+
+    &--company {
+      font-size: 1.2rem;
+
+    }
+
+    &--time {
+      font-size: 1.2rem;
+
+    }
+
+    &--desc {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+  }
+
+  &__item:not(:first-child) {
+    padding-top: 0.75rem;
+
+  }
+
+  &__item:not(:last-child) {
+    border-bottom: solid 1px #b1b2b648;
+    padding-bottom: 0.75rem;
+  }
+}
