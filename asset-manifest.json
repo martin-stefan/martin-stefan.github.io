@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/martin-stefan/martin-stefan.github.io/static/css/main.ef527fd5.chunk.css",
+    "main.js": "/martin-stefan/martin-stefan.github.io/static/js/main.9cee3758.chunk.js",
+    "main.js.map": "/martin-stefan/martin-stefan.github.io/static/js/main.9cee3758.chunk.js.map",
+    "runtime-main.js": "/martin-stefan/martin-stefan.github.io/static/js/runtime-main.6046f49d.js",
+    "runtime-main.js.map": "/martin-stefan/martin-stefan.github.io/static/js/runtime-main.6046f49d.js.map",
+    "static/js/2.7b12df78.chunk.js": "/martin-stefan/martin-stefan.github.io/static/js/2.7b12df78.chunk.js",
+    "static/js/2.7b12df78.chunk.js.map": "/martin-stefan/martin-stefan.github.io/static/js/2.7b12df78.chunk.js.map",
+    "index.html": "/martin-stefan/martin-stefan.github.io/index.html",
+    "precache-manifest.b955f59ef67514ff8f0bdba75dbcfc61.js": "/martin-stefan/martin-stefan.github.io/precache-manifest.b955f59ef67514ff8f0bdba75dbcfc61.js",
+    "service-worker.js": "/martin-stefan/martin-stefan.github.io/service-worker.js",
+    "static/css/main.ef527fd5.chunk.css.map": "/martin-stefan/martin-stefan.github.io/static/css/main.ef527fd5.chunk.css.map",
+    "static/js/2.7b12df78.chunk.js.LICENSE.txt": "/martin-stefan/martin-stefan.github.io/static/js/2.7b12df78.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/martin-stefan/martin-stefan.github.io/static/media/bg.9143de97.jpg",
+    "static/media/createPost.jpg": "/martin-stefan/martin-stefan.github.io/static/media/createPost.35a8a56f.jpg",
+    "static/media/createorder.jpg": "/martin-stefan/martin-stefan.github.io/static/media/createorder.b027a5f7.jpg",
+    "static/media/details.jpg": "/martin-stefan/martin-stefan.github.io/static/media/details.d663444b.jpg",
+    "static/media/feed.jpg": "/martin-stefan/martin-stefan.github.io/static/media/feed.82d1d023.jpg",
+    "static/media/home.jpg": "/martin-stefan/martin-stefan.github.io/static/media/home.89e979af.jpg",
+    "static/media/menuCat.jpg": "/martin-stefan/martin-stefan.github.io/static/media/menuCat.f60fe681.jpg",
+    "static/media/menuItems.jpg": "/martin-stefan/martin-stefan.github.io/static/media/menuItems.711a127e.jpg",
+    "static/media/nav.jpg": "/martin-stefan/martin-stefan.github.io/static/media/nav.606ac7ed.jpg",
+    "static/media/signin.jpg": "/martin-stefan/martin-stefan.github.io/static/media/signin.8bbe017f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6046f49d.js",
+    "static/js/2.7b12df78.chunk.js",
+    "static/css/main.ef527fd5.chunk.css",
+    "static/js/main.9cee3758.chunk.js"
+  ]
+}
