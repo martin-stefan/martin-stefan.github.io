@@ -1,0 +1,20 @@
+.more {
+  margin-top: 10rem;
+  font-size: 2rem;
+  text-align: center;
+  
+  &:hover {
+    transform: translateY(-0.5rem);
+    transition: .2s ease-out;
+    cursor: pointer;
+  }
+
+  &:active {
+    transform: translateY(0.2rem);
+    transition: .2s ease-out;
+  }
+}
+
+.arrow {
+  color: white;
+}
