@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cdd104733d6f6455383dc74fa6dab2ac",
+    "revision": "0f1d3493672a25f3891fdaed500d4c83",
     "url": "/martin-stefan.github.io/index.html"
   },
   {
-    "revision": "2f885299774d0e049d4a",
-    "url": "/martin-stefan.github.io/static/css/main.b11018c0.chunk.css"
+    "revision": "91ae8cf0cfafe2e4e293",
+    "url": "/martin-stefan.github.io/static/css/main.e18ac580.chunk.css"
   },
   {
     "revision": "71b3b6ccbf20b7d523b8",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/martin-stefan.github.io/static/js/2.7b12df78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f885299774d0e049d4a",
+    "revision": "91ae8cf0cfafe2e4e293",
     "url": "/martin-stefan.github.io/static/js/main.1f39a1e3.chunk.js"
   },
   {

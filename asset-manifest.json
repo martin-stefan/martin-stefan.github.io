@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/martin-stefan.github.io/static/css/main.b11018c0.chunk.css",
+    "main.css": "/martin-stefan.github.io/static/css/main.e18ac580.chunk.css",
     "main.js": "/martin-stefan.github.io/static/js/main.1f39a1e3.chunk.js",
     "main.js.map": "/martin-stefan.github.io/static/js/main.1f39a1e3.chunk.js.map",
     "runtime-main.js": "/martin-stefan.github.io/static/js/runtime-main.afccc2b9.js",
@@ -8,9 +8,9 @@
     "static/js/2.7b12df78.chunk.js": "/martin-stefan.github.io/static/js/2.7b12df78.chunk.js",
     "static/js/2.7b12df78.chunk.js.map": "/martin-stefan.github.io/static/js/2.7b12df78.chunk.js.map",
     "index.html": "/martin-stefan.github.io/index.html",
-    "precache-manifest.307a277c7bcb78606e890c5cf3567712.js": "/martin-stefan.github.io/precache-manifest.307a277c7bcb78606e890c5cf3567712.js",
+    "precache-manifest.d71e7f8f3d093857a995c61be9c678d1.js": "/martin-stefan.github.io/precache-manifest.d71e7f8f3d093857a995c61be9c678d1.js",
     "service-worker.js": "/martin-stefan.github.io/service-worker.js",
-    "static/css/main.b11018c0.chunk.css.map": "/martin-stefan.github.io/static/css/main.b11018c0.chunk.css.map",
+    "static/css/main.e18ac580.chunk.css.map": "/martin-stefan.github.io/static/css/main.e18ac580.chunk.css.map",
     "static/js/2.7b12df78.chunk.js.LICENSE.txt": "/martin-stefan.github.io/static/js/2.7b12df78.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/martin-stefan.github.io/static/media/bg.9143de97.jpg",
     "static/media/createPost.jpg": "/martin-stefan.github.io/static/media/createPost.35a8a56f.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.afccc2b9.js",
     "static/js/2.7b12df78.chunk.js",
-    "static/css/main.b11018c0.chunk.css",
+    "static/css/main.e18ac580.chunk.css",
     "static/js/main.1f39a1e3.chunk.js"
   ]
 }
