@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=League+Gothic&display=swap');
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #6A7062;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
