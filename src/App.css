@@ -5,6 +5,7 @@
 @import url('./styles/Projects.css');
 @import url('./styles/Work.css');
 @import url('./styles/utilities.css');
+@import url('./styles/responsive.css');
 
 .App {
   height: 100vh;
@@ -97,6 +98,7 @@ button {
   border-radius: 10px;
   margin-left: 2rem;
   background-color: #181818;
+  background-size: contain;
 }
 
 .hcard {

@@ -44,6 +44,7 @@
   height: 70vh;
   position: relative;
   list-style-type: none;
+  padding: 0;
 }
 
 .carousel__item {
