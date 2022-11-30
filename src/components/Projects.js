@@ -13,6 +13,12 @@ import SearchPlate from '../assets/plateable/search.jpg'
 import ResultsPlate from '../assets/plateable/results.jpg'
 import RecipePlate from '../assets/plateable/recipe.jpg'
 
+import AboutPort from '../assets/portfolio/about.jpg';
+import ContactPort from '../assets/portfolio/contact.jpg'
+import HeroPort from '../assets/portfolio/hero.jpg'
+import ProjectsPort from '../assets/portfolio/projects.jpg'
+import WorkPort from '../assets/portfolio/work.jpg'
+
 const Projects = () => {
 
   const [curItem, setCurItem] = useState(0)
@@ -76,11 +82,11 @@ const Projects = () => {
       date: "Fall 2022",
       desc: "Semester-long research project oriented around understanding modern best practices for designing user intuitive applications. Topics covered within this research included visual hierarchy, typography, color design, and much more. The research resulted in a methodology focused design of a personal portfolio website.",
       images: [
-        {alt:"", src: "#"},
-        {alt:"", src: "#"},
-        {alt:"", src: "#"},
-        {alt:"", src: "#"},
-        {alt:"", src: "#"}
+        {alt:"Hero section", src: HeroPort},
+        {alt:"About section", src: AboutPort},
+        {alt:"Work section", src: WorkPort},
+        {alt:"Project section", src: ProjectsPort},
+        {alt:"Contact section", src: ContactPort}
       ]
     },
   ]
