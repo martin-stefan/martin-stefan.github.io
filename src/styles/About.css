@@ -1,0 +1,30 @@
+.about {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutBtn {
+  align-self: flex-end;
+  margin-top: 4rem;
+  margin-right: 4rem;
+}
+
+#who {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), 
+    url('../assets/steps.JPG');
+}
+
+#what {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+    url('../assets/tower.JPG');
+
+}
+
+#why {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+    url('../assets/walk.JPG');
+
+}

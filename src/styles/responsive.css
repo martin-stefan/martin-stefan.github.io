@@ -1,0 +1,116 @@
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 55%;
+  }
+
+  .card {
+    width: 234px !important;
+    height: 369px !important;
+  }
+
+  .carousel {
+    height: 65vh;
+    width: 70vw;
+  }
+  
+  .carousel__item {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  section {
+    max-width: 100%;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    height: 220px !important;
+    width: 360px !important;
+    margin-top: 1rem;
+    background-size: cover !important;
+  }
+
+  .work {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+  }
+  .images {
+    flex-direction: column;
+    max-height: 55rem;
+  }
+
+  .contact__container {
+    width: 80vw
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 7rem !important;
+  }
+
+  .about {
+    height: 85vh;
+  }
+
+  .card {
+    height: 120px !important;
+    width: 80vw !important;
+    margin-top: 2rem;
+    margin-left: 0 !important;
+  }
+
+  .hcard {
+    width: 80vw !important;
+    margin: 0 !important;
+  }
+
+  h2 {
+    font-size: 8rem !important;
+    margin-left: 4rem !important;
+  }
+
+  .images {
+    max-height: 35rem ;
+  }
+  
+  .carousel {
+    width: 90vw;
+    overflow: hidden;
+  }
+
+  .carousel__item {
+    height: auto;
+    width: auto;
+  }
+
+  .item__desc {
+    font-size: 1.5rem;
+  }
+
+  .contact__container {
+    height: auto;
+  }
+
+  .contact__content {
+    flex-direction: column;
+  }
+
+  .contact__left, .contact__right {
+    width: auto;
+    margin-top: 1rem;
+  }
+
+  .contact__right {
+    margin-top: 2rem;
+  }
+
+  .nav__item {
+    margin: 0;
+  }
+}

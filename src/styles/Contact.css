@@ -1,0 +1,80 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__container {
+  background-color: #181818;
+  border-radius: 1rem;
+  width: 60vw;
+  height: 40vh;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact__header {
+  flex: 0 0 auto;
+}
+
+.contact__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1 0 auto;
+}
+
+.contact__left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 2rem;
+}
+
+#email {
+  display: inline;
+}
+
+.contact__link {
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+.contact__right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+label {
+  font-size: 1.4rem;
+}
+
+input[type="text"], #message{
+  background: transparent;
+  outline: none;
+  text-decoration: none;
+  border: 1px solid #f4f4f47a;
+  padding: 1rem;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+#send {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+#send:hover {
+  cursor: pointer;
+}
