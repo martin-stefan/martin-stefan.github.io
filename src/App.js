@@ -19,13 +19,16 @@ function App() {
       current = Math.floor(Math.abs(window.scrollY / (window.innerHeight - 50)))
     } else {
       current = Math.floor(Math.abs((window.innerHeight * amount) / (window.innerHeight - 50)))
-      console.log("clicked", current)
-      console.log("amount")
     }
   
     if (pages[current] !== active) {
       setActive(pages[current]);
     }
+  }
+
+  const handleMove = (position) => {
+    window.scrollTo(0, window.innerHeight * position)
+    handleScroll(position)
   }
 
   useEffect(() => {
@@ -39,9 +42,9 @@ function App() {
   
   return (
     <div className="App">
-      <Nav active={active} handleScroll={handleScroll}/>
+      <Nav active={active} handleScroll={handleScroll} handleMove={handleMove}/>
       <Hero />
-      <About />
+      <About handleMove={handleMove}/>
       <Work />
       <Projects />
       <Contact />
