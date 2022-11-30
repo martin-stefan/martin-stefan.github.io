@@ -1,24 +1,23 @@
-nav {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  padding: 2rem;
-  background-color: rgba(0, 0, 0, .7);
-}
+@import url('./styles/About.css');
+@import url('./styles/Contact.css');
+@import url('./styles/Hero.css');
+@import url('./styles/Nav.css');
+@import url('./styles/Projects.css');
+@import url('./styles/Work.css');
+@import url('./styles/utilities.css');
 
-nav > a {
-  color: white;
-  font-size: 16px;
-  margin-right: 2rem;
-  margin-left: 2rem;
+.App {
+  height: 100vh;
 }
 
 a {
   text-decoration: none;
   color: white;
   font-size: 1.4rem;
+}
+
+p {
+  margin: 0;
 }
 
 .ellipses {
@@ -43,30 +42,22 @@ h2 {
   margin: 5rem 0 0 5rem;
 }
 
+h3 {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: 'League Gothic', sans-serif;
+  margin: 0;
+}
+
 h5 {
   margin: 0;
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   font-weight: 400;
   font-family: 'League Gothic', sans-serif;
 }
 
 p {
   font-size: 1.6rem;
-}
-
-#home {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding-left: 4rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(60deg,
-    rgba(24, 24, 24, 0.7) 0%, 
-    rgba(24, 24, 24, 0.7) 50%, 
-    rgba(0, 0, 0, .1) 50%,
-    rgba(0, 0, 0, .1) 100%),
-    url('assets/trees.JPG');
 }
 
 .lightBtn {
@@ -82,14 +73,6 @@ p {
   transform: translateY(-2px);
 }
 
-.about {
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .cards {
   display: flex;
   justify-content: center;
@@ -98,120 +81,42 @@ p {
 
 .card {
   padding: 2rem;
-  width: 255px;
+  width: 240px;
   height: 380px;
   border-radius: 10px;
   margin-left: 2rem;
   background-color: #181818;
 }
 
-
-#who {
-  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), 
-    url('assets/steps.JPG');
-  background-size: contain;
-}
-
-#what {
-  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
-    url('assets/tower.JPG');
-  background-size: contain;
-
-}
-
-#why {
-  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
-    url('assets/walk.JPG');
-  background-size: contain;
-
+.hcard {
+  padding: 2rem;
+  height: 255px;
+  width: 380px;
+  border-radius: 10px;
+  margin-left: 2rem;
+  background-color: #181818;
 }
 
 .btn {
+  display: block;
+  margin-top: 1rem;
   padding: 1rem 2rem;
+  width: fit-content;
   background-color: #6A7062;
   text-decoration: none;
   border-radius: 5px;
   color: white;
   font-size: 1.6rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, .3);
+  transition: all .2s ease-in-out;
 }
 
-.work {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+.btn:hover {
+  transform: translateY(-2px);
 }
 
-.projects {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.projects__btn {
-  border: 1px solid white;
-  background-color: none;
-  outline: none;
-  border-radius: 66%;
-  font-size: 50px;
-  /* vertical-align: middle; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.projects__btn:hover {
-  cursor: pointer;
-}
-
-.carousel__item {
-  background-color: #181818;
-  border-radius: 1rem;
-  width: 60vw;
-  height: 70vh;
-}
-
-.carousel {
-  /* width: 70vw; */
-  /* max-width: 70vw; */
-  display: flex;
-
-  overflow: hidden;
-}
-
-.carousel--active {
-
-}
-
-.carousel--next {
-
-}
-
-.carousel--prev {
-
-}
-
-.indicator {
-  display: flex;
-  flex-direction: row;
-}
-
-.indicator--active {
-  color: blue;
-}
-
-
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact__content {
-  background-color: #181818;
-  border-radius: 1rem;
-  width: 50vw;
+.btn:active {
+  transform: translateY(2px);
 }
 
 footer {
@@ -222,3 +127,4 @@ footer {
   align-items: center;
   padding: 4rem 0;
 }
+
