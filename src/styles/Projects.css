@@ -95,6 +95,10 @@
   flex: 0 0 auto;
 }
 
+.header__details {
+  text-align: end;
+}
+
 .item__content {
   display: flex;
   flex-direction: column;

@@ -117,7 +117,7 @@ const Projects = () => {
                 >
                   <div className="item__header">
                     <h3>{el.name}</h3>
-                    <div>
+                    <div className="header__details">
                       <p>{el.organization}</p>
                       <p>{el.date}</p>
                     </div>
