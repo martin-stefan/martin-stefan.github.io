@@ -19,7 +19,7 @@ const About = props => {
               <p className="u-margin-top-med">I am passionate about learning. My goal is learn as much as I can and use that knowledge to do something important.</p>
             </div>
           </div>
-          <a className="lightBtn" id="aboutBtn" onClick={() => props.handleMove(2)}>What's the outcome?</a>
+          <button className="lightBtn" id="aboutBtn" onClick={() => props.handleMove(2)}>What's the outcome?</button>
         </div>
     </section>
   );

@@ -5,13 +5,13 @@ import Contact from './components/Contact';
 import Nav from './components/Nav';
 import Work from './components/Work';
 import Hero from './components/Hero';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 function App() {
 
   const [active, setActive] = useState("home")  
 
-  const handleScroll = (amount) => {
+  const handleScroll = useCallback((amount) => {
     const pages = ["home", "about", "work", "projects", "contact"]
     let current;
 
@@ -24,7 +24,7 @@ function App() {
     if (pages[current] !== active) {
       setActive(pages[current]);
     }
-  }
+  }, [active])
 
   const handleMove = (position) => {
     window.scrollTo(0, window.innerHeight * position)
@@ -37,7 +37,8 @@ function App() {
     return () => {
       document.removeEventListener('wheel', handleScroll);
     };
-    }, [window.scrollY]);
+    
+  }, [handleScroll]);
 
   
   return (
@@ -51,7 +52,7 @@ function App() {
       
       <footer>
         <p>Stéfan Martin</p>
-        <a href="home">Back to top</a>
+        <a href="#home">Back to top</a>
       </footer>
     </div>
   );

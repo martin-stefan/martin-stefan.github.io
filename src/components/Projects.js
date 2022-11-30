@@ -32,10 +32,7 @@ const Projects = () => {
       name: "Bai Asset",
       organization: "Bai Engineers",
       date: "Spring 2022",
-      desc: "Worked as a solo developer creating an application that overlays sewer systems onto a map that is used\
-      in three different communities for asset management. The application was built using Mapbox GL-JS\
-      and parses GeoJSON data to output a layered system of information that can be embedded with further\
-      documentation such as images, pdf’s, and CCTV video recordings.",
+      desc: "Worked as a solo developer creating an application that overlays sewer systems onto a map that is used in three different communities for asset management. The application was built using Mapbox GL-JS and parses GeoJSON data to output a layered system of information that can be embedded with further documentation such as images, pdf’s, and CCTV video recordings.",
       images: [
         {alt:"Admin Dashboard", src: DashBoardBai},
         {alt:"Create new project", src: CreateBai},
@@ -49,10 +46,7 @@ const Projects = () => {
       name: "Virtual Order",
       organization: "IT & Web Science Capstone",
       date: "Fall 2022",
-      desc: "Worked with Johnson & Johnson Vision to develop an application that enables sales representatives to\
-      control the flow of overstocked supply of contact lens kits between eye care physicians. The application\
-      is projected to decrease the number of kits that expire before being used as well as increase the number\
-      of kit sales.",
+      desc: "Worked with Johnson & Johnson Vision to develop an application that enables sales representatives to control the flow of overstocked supply of contact lens kits between eye care physicians. The application is projected to decrease the number of kits that expire before being used as well as increase the number of kit sales.",
       images: [
         {alt:"", src: "#"},
         {alt:"", src: "#"},
@@ -66,9 +60,7 @@ const Projects = () => {
       name: "Plateable",
       organization: "Software Design & Documentation",
       date: "Fall 2022",
-      desc: "Lead a team of five students to develop an application that provides an easy-to-use platform for users to\
-      keep track of items within their pantry, create a grocery lists, and search for recipes based on the\
-      ingredients that they have readily available.",
+      desc: "Lead a team of five students to develop an application that provides an easy-to-use platform for users to keep track of items within their pantry, create a grocery lists, and search for recipes based on the ingredients that they have readily available.",
       images: [
         {alt:"Landing page", src: LandingPlate},
         {alt:"List page", src: ListPlate},
@@ -82,10 +74,7 @@ const Projects = () => {
       name: "Portfolio",
       organization: "Modern Design Methodologies",
       date: "Fall 2022",
-      desc: "Semester-long research project oriented around understanding modern best practices \
-      for designing user intuitive applications. Topics covered within this research included visual hierarchy, \
-      typography, color design, and much more. The research resulted in a methodology focused design of a \
-      personal portfolio website.",
+      desc: "Semester-long research project oriented around understanding modern best practices for designing user intuitive applications. Topics covered within this research included visual hierarchy, typography, color design, and much more. The research resulted in a methodology focused design of a personal portfolio website.",
       images: [
         {alt:"", src: "#"},
         {alt:"", src: "#"},
