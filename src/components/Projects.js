@@ -7,6 +7,12 @@ import DetailsBai from '../assets/bai/details.jpg'
 import EditBai from '../assets/bai/edit.jpg'
 import MapBai from '../assets/bai/map.jpg'
 
+import LandingPlate from '../assets/plateable/landing.jpg';
+import ListPlate from '../assets/plateable/list.jpg'
+import SearchPlate from '../assets/plateable/search.jpg'
+import ResultsPlate from '../assets/plateable/results.jpg'
+import RecipePlate from '../assets/plateable/recipe.jpg'
+
 const Projects = () => {
 
   const [curItem, setCurItem] = useState(0)
@@ -64,11 +70,11 @@ const Projects = () => {
       keep track of items within their pantry, create a grocery lists, and search for recipes based on the\
       ingredients that they have readily available.",
       images: [
-        {alt:"", src: "#"},
-        {alt:"", src: "#"},
-        {alt:"", src: "#"},
-        {alt:"", src: "#"},
-        {alt:"", src: "#"}
+        {alt:"Landing page", src: LandingPlate},
+        {alt:"List page", src: ListPlate},
+        {alt:"Search page", src: SearchPlate},
+        {alt:"Recipe search results", src: ResultsPlate},
+        {alt:"Recipe details", src: RecipePlate}
       ]
     },
     {
