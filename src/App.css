@@ -64,6 +64,10 @@ p {
   font-size: 1.6rem;
 }
 
+button {
+  font-family: 'Inter', sans-serif;
+}
+
 .lightBtn {
   background-color: #fff;
   color: #181818;
@@ -72,6 +76,7 @@ p {
   box-shadow: 0 0 1rem rgba(0, 0, 0, .7);
   transition: all ease-in-out .2s;
   border: none;
+  font-size: 1.5rem;
 }
 
 .lightBtn:hover {
