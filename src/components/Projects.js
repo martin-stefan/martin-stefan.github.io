@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import { BsArrowLeftCircle, BsArrowRightCircle } from 'react-icons/bs'
 
+import DashBoardBai from '../assets/bai/dash.jpg';
+import CreateBai from '../assets/bai/create.jpg'
+import DetailsBai from '../assets/bai/details.jpg'
+import EditBai from '../assets/bai/edit.jpg'
+import MapBai from '../assets/bai/map.jpg'
+
 const Projects = () => {
 
   const [curItem, setCurItem] = useState(0)
@@ -25,11 +31,11 @@ const Projects = () => {
       and parses GeoJSON data to output a layered system of information that can be embedded with further\
       documentation such as images, pdf’s, and CCTV video recordings.",
       images: [
-        {alt:"", src: "#"},
-        {alt:"", src: "#"},
-        {alt:"", src: "#"},
-        {alt:"", src: "#"},
-        {alt:"", src: "#"}
+        {alt:"Admin Dashboard", src: DashBoardBai},
+        {alt:"Create new project", src: CreateBai},
+        {alt:"Project Details", src: DetailsBai},
+        {alt:"Edit Project", src: EditBai},
+        {alt:"Project Map", src: MapBai}
       ]
     },
     {
@@ -90,11 +96,9 @@ const Projects = () => {
 
   return (
     <section className="section">
-
       <h2 id="projects">Projects</h2>
 
       <div className="projects">
-        
         <ul className="carousel">   
           {
             projects.map(el => {
@@ -115,10 +119,13 @@ const Projects = () => {
                   <div className="item__content">
                     <p className="item__desc">{el.desc}</p>
                     <div className="images">
-                      {el.images.map(img => {
-                        <img src={img.src} alt={img.alt} srcSet="#" />
-                      })}
-                    
+                      {
+                        el.images.map(img => (
+                          <div className="image__container">
+                            <img src={img.src} alt={img.alt} className="image" key={img.alt}/>
+                          </div>
+                        ))
+                      }
                     </div>
                   </div>
                 </li>
