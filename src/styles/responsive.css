@@ -81,11 +81,15 @@
   
   .carousel {
     width: 90vw;
+    height: 95vh;
     overflow: hidden;
+  }
+  .projects {
+    height: auto;
   }
 
   .carousel__item {
-    height: auto;
+    height: 90vh;
     width: auto;
   }
 
