@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/martin-stefan.github.io/static/css/main.5a8c7d27.css",
-    "main.js": "/martin-stefan.github.io/static/js/main.fa6760f9.js",
+    "main.css": "/martin-stefan.github.io/static/css/main.cc31e73f.css",
+    "main.js": "/martin-stefan.github.io/static/js/main.1c26d064.js",
     "static/js/787.dbb7441f.chunk.js": "/martin-stefan.github.io/static/js/787.dbb7441f.chunk.js",
     "static/media/steps.JPG": "/martin-stefan.github.io/static/media/steps.35ebf1ee5544984e3679.JPG",
     "static/media/walk.JPG": "/martin-stefan.github.io/static/media/walk.8f1bcd5e6ab7eaafc24d.JPG",
@@ -23,12 +23,12 @@
     "static/media/work.jpg": "/martin-stefan.github.io/static/media/work.8205c63300d83c57a810.jpg",
     "static/media/contact.jpg": "/martin-stefan.github.io/static/media/contact.0a9ba360659f0c277637.jpg",
     "index.html": "/martin-stefan.github.io/index.html",
-    "main.5a8c7d27.css.map": "/martin-stefan.github.io/static/css/main.5a8c7d27.css.map",
-    "main.fa6760f9.js.map": "/martin-stefan.github.io/static/js/main.fa6760f9.js.map",
+    "main.cc31e73f.css.map": "/martin-stefan.github.io/static/css/main.cc31e73f.css.map",
+    "main.1c26d064.js.map": "/martin-stefan.github.io/static/js/main.1c26d064.js.map",
     "787.dbb7441f.chunk.js.map": "/martin-stefan.github.io/static/js/787.dbb7441f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a8c7d27.css",
-    "static/js/main.fa6760f9.js"
+    "static/css/main.cc31e73f.css",
+    "static/js/main.1c26d064.js"
   ]
 }
