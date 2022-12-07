@@ -22,7 +22,7 @@ const Contact = () => {
             </a>
           </div>
 
-          <div className="contact__right">
+          <form className="contact__right" action="https://formspree.io/f/mrgdnlaq" method="POST">
             <label htmlFor="name">Name</label>
             <br />
             <input type="text" name="name" id="name" placeholder="Name"/>
@@ -32,8 +32,8 @@ const Contact = () => {
             <br />
             <textarea name="message" id="message" rows={4} placeholder="Message"/>
             <br />
-            <button id="send">Send Message</button>
-          </div>
+            <button id="send" type="submit">Send Message</button>
+          </form>
         </div>
       </div>
     </section>
