@@ -114,3 +114,15 @@
     margin: 0;
   }
 }
+
+@media screen and (max-height: 800px) {
+  .image {
+    height: 30rem;
+  }
+}
+
+@media screen and (max-height: 550px) {
+  .image {
+    height: 25rem;
+  }
+}
