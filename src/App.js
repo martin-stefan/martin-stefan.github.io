@@ -1,59 +1,61 @@
 import './App.css';
-import About from './components/About';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Nav from './components/Nav';
 import Work from './components/Work';
 import Hero from './components/Hero';
-import { useState, useEffect, useCallback } from 'react';
+import Certs from './components/Certs';
+import Contact from './components/Contact';
+import { useEffect, useRef } from 'react';
+import Skills from './components/Skills';
+import Status from './components/Status';
 
 function App() {
 
-  const [active, setActive] = useState("home")  
-
-  const handleScroll = useCallback((amount) => {
-    const pages = ["home", "about", "work", "projects", "contact"]
-    let current;
-
-    if (typeof(amount) !== "number") {
-      current = Math.floor(Math.abs(window.scrollY / (window.innerHeight - 50)))
-    } else {
-      current = Math.floor(Math.abs((window.innerHeight * amount) / (window.innerHeight - 50)))
-    }
-  
-    if (pages[current] !== active) {
-      setActive(pages[current]);
-    }
-  }, [active])
-
-  const handleMove = (position) => {
-    window.scrollTo(0, window.innerHeight * position)
-    handleScroll(position)
-  }
+  const mouseRef = useRef(null);
 
   useEffect(() => {
-    document.addEventListener('wheel', handleScroll);
+    let curX = 0;
+    let curY = 0;
+    let tgX = 0;
+    let tgY = 0;
+
+    const handleMouseMove = e => {
+      tgX = e.clientX;
+      tgY = e.clientY;
+    }
+    
+    document.addEventListener('mousemove', handleMouseMove);
+    
+    const move = () => {
+      curX += (tgX - curX) / 10;
+      curY += (tgY - curY) / 10;
+      mouseRef.current.style.transform = `translate(${Math.round(curX) - 125}px, ${Math.round(curY) - 125}px)`;
+      requestAnimationFrame(move);
+    }
+    move()
 
     return () => {
-      document.removeEventListener('wheel', handleScroll);
+      document.removeEventListener('mousemove', handleMouseMove);
     };
-    
-  }, [handleScroll]);
+  }, []);
 
   
   return (
     <div className="App">
-      <Nav active={active} handleScroll={handleScroll} handleMove={handleMove}/>
-      <Hero />
-      <About handleMove={handleMove}/>
-      <Work />
-      <Projects />
-      <Contact />
-      
-      <footer>
-        <p>Stéfan Martin</p>
-        <a href="#home">Back to top</a>
-      </footer>
+      <div ref={mouseRef} id="mouse"></div>
+
+      <div className="app__content">
+        <Contact />
+        <Status />
+        <Certs />
+        <Hero />
+        <Projects />
+        <Work/>
+        <Skills/>
+      </div>
+
+      <div className="blobs">
+        <div className="b1"></div>
+      </div>
     </div>
   );
 }

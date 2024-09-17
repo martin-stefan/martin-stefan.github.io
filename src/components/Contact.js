@@ -1,43 +1,26 @@
 import React from "react";
-import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import { BsGithub, BsLinkedin, BsEnvelopeFill } from 'react-icons/bs'
 
 const Contact = () => {
   return (
-    <section id="contact" className="section contact">
-      <div className="contact__container">
-        <h3 className="contact__header">Contact</h3>
-        <div className="contact__content">
-          <div className="contact__left">
-            <div>
-              <p id="email">Email:&nbsp;</p>
-              <a href="mailto:stefanmartin.rpi@gmail.com">stefanmartin.rpi@gmail.com</a>
-            </div>
-            <a href="https://github.com/martin-stefan" target="_new" className="contact__link">
-              <span>GitHub </span>
-              <BsGithub />
-            </a>
-            <a href="https://www.linkedin.com/in/st%C3%A9fan-martin-687373188/" target="_new" className="contact__link">
-              <span>LinkedIn</span>
-              <BsLinkedin/>
-            </a>
-          </div>
-
-          <form className="contact__right" action="https://formspree.io/f/mrgdnlaq" method="POST">
-            <label htmlFor="name">Name</label>
-            <br />
-            <input type="text" name="name" id="name" placeholder="Name"/>
-            <br />
-            <br />
-            <label htmlFor="message">Message</label>
-            <br />
-            <textarea name="message" id="message" rows={4} placeholder="Message"/>
-            <br />
-            <button id="send" type="submit">Send Message</button>
-          </form>
-        </div>
+    <div id="section1" className="frame">
+      <h1>Contact</h1>
+      <div className="contact__links">
+        <a href="mailto:stefanmartin.rpi@gmail.com" target="_new" className="icon contact__item">
+          <BsEnvelopeFill />
+          <p className="u-normal-font">stefanmartin.rpi@gmail.com</p>
+        </a>
+        <a href="https://www.linkedin.com/in/st%C3%A9fan-martin-687373188/" target="_new" className="icon contact__item">
+          <BsLinkedin/>
+          <p className="u-normal-font">LinkedIn</p>
+        </a>
+        <a href="https://github.com/martin-stefan" target="_new" className="icon contact__item">
+          <BsGithub />
+          <p className="u-normal-font">GitHub</p>
+        </a>
       </div>
-    </section>
-  );
+    </div>
+  )
 }
 
 export default Contact;
