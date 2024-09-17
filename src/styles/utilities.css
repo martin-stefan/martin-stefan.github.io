@@ -5,3 +5,22 @@
 .u-margin-top-med {
   margin-top: 1rem;
 }
+
+.u-margin-bottom-small {
+  margin-bottom: .5rem;
+}
+
+.u-normal-font {
+  display: inline-block;
+}
+
+.u-sub-title {
+  font-size: 1.8rem;
+}
+
+.u-flex-space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
