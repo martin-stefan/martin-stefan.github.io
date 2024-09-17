@@ -1,34 +1,13 @@
 {
   "files": {
-    "main.css": "/martin-stefan.github.io/static/css/main.1ac1a8b8.css",
-    "main.js": "/martin-stefan.github.io/static/js/main.1c26d064.js",
-    "static/js/787.dbb7441f.chunk.js": "/martin-stefan.github.io/static/js/787.dbb7441f.chunk.js",
-    "static/media/steps.JPG": "/martin-stefan.github.io/static/media/steps.35ebf1ee5544984e3679.JPG",
-    "static/media/walk.JPG": "/martin-stefan.github.io/static/media/walk.8f1bcd5e6ab7eaafc24d.JPG",
-    "static/media/tower.JPG": "/martin-stefan.github.io/static/media/tower.81283d87ca6eecc2a248.JPG",
-    "static/media/trees.JPG": "/martin-stefan.github.io/static/media/trees.b469476ec5fc48ad2a1d.JPG",
-    "static/media/landing.jpg": "/martin-stefan.github.io/static/media/landing.d0dfaa3007e67a491096.jpg",
-    "static/media/map.jpg": "/martin-stefan.github.io/static/media/map.b6b59d7f3c76ef74dd21.jpg",
-    "static/media/results.jpg": "/martin-stefan.github.io/static/media/results.b720a0d41ea2ffad1090.jpg",
-    "static/media/recipe.jpg": "/martin-stefan.github.io/static/media/recipe.1433f9f9519c18a973d9.jpg",
-    "static/media/hero.jpg": "/martin-stefan.github.io/static/media/hero.9c8c618a9b46adf1636e.jpg",
-    "static/media/about.jpg": "/martin-stefan.github.io/static/media/about.6279ba325839b5f53eb5.jpg",
-    "static/media/edit.jpg": "/martin-stefan.github.io/static/media/edit.6c3d820b756b2f99a014.jpg",
-    "static/media/details.jpg": "/martin-stefan.github.io/static/media/details.ee3b374dd34cd2ae9cab.jpg",
-    "static/media/list.jpg": "/martin-stefan.github.io/static/media/list.9ed720c4314d96f97868.jpg",
-    "static/media/create.jpg": "/martin-stefan.github.io/static/media/create.6ad959da79868512ff01.jpg",
-    "static/media/projects.jpg": "/martin-stefan.github.io/static/media/projects.25bd87b487ee54878f0c.jpg",
-    "static/media/dash.jpg": "/martin-stefan.github.io/static/media/dash.dd35bbfdfa8fb9a3d612.jpg",
-    "static/media/search.jpg": "/martin-stefan.github.io/static/media/search.ccd3754b677ea878415d.jpg",
-    "static/media/work.jpg": "/martin-stefan.github.io/static/media/work.8205c63300d83c57a810.jpg",
-    "static/media/contact.jpg": "/martin-stefan.github.io/static/media/contact.0a9ba360659f0c277637.jpg",
+    "main.css": "/martin-stefan.github.io/static/css/main.d77d5016.css",
+    "main.js": "/martin-stefan.github.io/static/js/main.85c5f14d.js",
     "index.html": "/martin-stefan.github.io/index.html",
-    "main.1ac1a8b8.css.map": "/martin-stefan.github.io/static/css/main.1ac1a8b8.css.map",
-    "main.1c26d064.js.map": "/martin-stefan.github.io/static/js/main.1c26d064.js.map",
-    "787.dbb7441f.chunk.js.map": "/martin-stefan.github.io/static/js/787.dbb7441f.chunk.js.map"
+    "main.d77d5016.css.map": "/martin-stefan.github.io/static/css/main.d77d5016.css.map",
+    "main.85c5f14d.js.map": "/martin-stefan.github.io/static/js/main.85c5f14d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ac1a8b8.css",
-    "static/js/main.1c26d064.js"
+    "static/css/main.d77d5016.css",
+    "static/js/main.85c5f14d.js"
   ]
 }
