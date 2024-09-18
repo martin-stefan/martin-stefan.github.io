@@ -1,14 +1,9 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 2000px) {
   html {
     font-size: 100%;
   }
 }
 
-@media screen and (max-height: 1200px) {
-  .app__content {
-    /* max-height: 85vh !important; */
-  }
-}
 
 @media screen and (max-width: 2300px) {
 
