@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/martin-stefan.github.io/static/css/main.727fbe98.css",
+    "main.css": "/martin-stefan.github.io/static/css/main.9216cc5d.css",
     "main.js": "/martin-stefan.github.io/static/js/main.85c5f14d.js",
     "index.html": "/martin-stefan.github.io/index.html",
-    "main.727fbe98.css.map": "/martin-stefan.github.io/static/css/main.727fbe98.css.map",
+    "main.9216cc5d.css.map": "/martin-stefan.github.io/static/css/main.9216cc5d.css.map",
     "main.85c5f14d.js.map": "/martin-stefan.github.io/static/js/main.85c5f14d.js.map"
   },
   "entrypoints": [
-    "static/css/main.727fbe98.css",
+    "static/css/main.9216cc5d.css",
     "static/js/main.85c5f14d.js"
   ]
 }
