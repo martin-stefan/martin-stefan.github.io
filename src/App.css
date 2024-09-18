@@ -17,15 +17,12 @@
 }
 
 .app__content {
-  height: 95vh;
-  width: 95vw;
-
-  max-height: 1800px;
-  max-width: 2500px;
+  max-height: fit-content !important;
+  max-width: 95vw;
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(6, auto);
   grid-template-areas: 
     "section1 section7 section7 section7 section5 section5"
     "section2 section2 section2 section2 section5 section5"
@@ -34,6 +31,7 @@
     "section4 section4 section6 section6 section5 section5"
     "section4 section4 section6 section6 section5 section5";
   gap: 2rem;
+  
 }
 
 .frame {
@@ -47,6 +45,7 @@
   transition: all .2s ease-in;
   z-index: 10;
   filter: blur(2px);
+  position: relative;
 }
 
 .frame:hover {
